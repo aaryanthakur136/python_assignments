@@ -59,6 +59,54 @@ Algorithm:
 
 # python_assignments 2
 
+Task 1: Check if a Number is Even or Odd
+Problem Statement:  Write a Python program that:
+1. 	Takes an integer input from the user.
+2. 	Checks whether the number is even or odd using an if-else statement.
+3. 	Displays the result accordingly.
+
+
+solution:
+Algorithm:
+
+1.  START
+2.  PROMPT the user to "Enter an integer: "
+3.  READ the input and store it in a variable called `number_str`.
+4.  ATTEMPT to convert `number_str` to an integer and store it in a variable called `number`.
+5.  IF a ValueError occurs during conversion (meaning the input is not a valid integer):
+    a. DISPLAY "Invalid input. Please enter an integer."
+    b. GO TO step 8.
+6.  CALCULATE the remainder when `number` is divided by 2.
+7.  IF the remainder is 0:
+    a. DISPLAY "`number` is even."
+8.  ELSE:
+    b. DISPLAY "`number` is odd."
+9.  END
+
+
+
+Task 2: Sum of Integers from 1 to 50 Using a Loop
+ 
+Problem Statement: Write a Python program that:
+1.   Uses a for loop to iterate over numbers from 1 to 50.
+2.   Calculates the sum of all integers in this range.
+3.   Displays the final sum.
+
+
+solution:
+
+Algorithm:
+
+1.  START
+2.  INITIALIZE a variable `sum` to 0.
+3.  USE a loop to iterate through numbers from 1 to 50 (inclusive).  Let the loop variable be `i`.
+4.  INSIDE the loop:
+    a.  ADD the current value of `i` to `sum`.
+5.  AFTER the loop finishes:
+6.  DISPLAY the message "The sum of integers from 1 to 50 is: " followed by the value of `sum`.
+7.  END
+
+
 
 
 
