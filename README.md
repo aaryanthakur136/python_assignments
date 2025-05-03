@@ -57,6 +57,10 @@ Algorithm:
 7.  DISPLAY the message "Hello, " followed by the value of `full_name` and an exclamation mark.
 8.  END
 
+# python_assignments 2
+
+
+
 
 
 
